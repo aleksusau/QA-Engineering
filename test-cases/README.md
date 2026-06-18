@@ -1,13 +1,20 @@
 # Test Cases
 This folder contains my manual testing practice.
 
-## Login Test Case
+## TC001 - Successful user login
 
-### Steps
-1. Open login page
-2. Enter username
-3. Enter password
-4. Click Login
+| Attribute | Details |
+| :--- | :--- |
+| **Description** | Verify that a user can successfully log in with valid credentials. |
+| **Preconditions** | 1. User has a registered, active account.<br>2. User is on the login page. |
+| **Test Data** | Username: `testuser@example.com` <br> Password: `Password123!` |
+
+### Test Steps
+1. Navigate to the login page URL.
+2. Enter the valid username into the "Username" field.
+3. Enter the valid password into the "Password" field.
+4. Click the "Login" button.
 
 ### Expected Result
-User is logged in successfully.
+* The user is successfully authenticated and redirected to the user dashboard.
+* A welcome message displaying the user's name appears.
