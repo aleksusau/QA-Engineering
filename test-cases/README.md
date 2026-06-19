@@ -11,7 +11,7 @@ This folder contains my manual testing practice.
 | **Test Data** | Username: `studnet` <br> Password: `Password123` |
 
 ### Test Steps
-1. Navigate to the login page URL.
+1. Navigate to the login page URL provided above.
 2. Enter the valid username into the "Username" field.
 3. Enter the valid password into the "Password" field.
 4. Click the "Login" button.
