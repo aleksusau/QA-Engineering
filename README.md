@@ -10,3 +10,5 @@ I have automated API test verification using Python to validate endpoint respons
 2. Install the required communication library:
    ```bash
    pip install requests
+
+   python api-automation/test_api.py
