@@ -6,8 +6,9 @@ This folder contains my manual testing practice.
 | Attribute | Details |
 | :--- | :--- |
 | **Description** | Verify that a user can successfully log in with valid credentials. |
+| **URL / Environment** | `https://practicetestautomation.com/practice-test-login/` |
 | **Preconditions** | 1. User has a registered, active account.<br>2. User is on the login page. |
-| **Test Data** | Username: `testuser@example.com` <br> Password: `Password123!` |
+| **Test Data** | Username: `studnet` <br> Password: `Password123` |
 
 ### Test Steps
 1. Navigate to the login page URL.
